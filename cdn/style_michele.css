@@ -1,13 +1,60 @@
- * {
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap'); 
+
+* {
     padding:0;
     margin:0;
     font-size: 100%;
     box-sizing: border-box; /*conteudo + broda = width*/
+    font-family: 'Lato', sans-serif;
+    
 }
 
-.container-principal {
-    border:solid 1px red;
-    max-width: 1300px;
+.container-principal { /* Este container pega toda a landing page, só não pega o footer.*/
+    border:solid 1px yellow;
+    max-width: 1400px;
     margin: 0 auto;
     background-color: #f7f7f7;
+}
+
+/*................................Sessão Cursos.........................*/
+.textos-cabecalho {
+    border: solid 1px red;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.8;
+}
+h2 {
+    font-size: 2em;
+}
+p.textos-cabecalho { /*não está funcionando*/
+    font-size: 1.4em;
+    margin: 2px;
+    color: #357599;
+}
+
+#landing-cursos {
+    border: solid 1px red;
+    padding: 5px;  
+}
+
+.todos-cursos {
+    border: solid 1px blue;
+    display: flex;
+    justify-content: center;
+
+}
+
+.detalhe-curso {
+    border: solid 1px green;
+    width: 23%;
+    margin: 5px;
+    padding:10px;
+    text-align: left;
+}
+
+
+
+.textos-curso {
+    border: solid 1px red;
+    width: 92%;
 }
