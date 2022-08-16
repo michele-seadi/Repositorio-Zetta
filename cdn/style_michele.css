@@ -18,7 +18,9 @@
 
 /*................................Sessão Cursos.........................*/
 .textos-cabecalho {
-    border: solid 1px red;
+    /*border: solid 1px red;*/
+    margin: 0 4% 0 4%;
+    padding: 10px 0 10px 0;
     display: flex;
     flex-direction: column;
     line-height: 1.8;
@@ -26,10 +28,18 @@
 h2 {
     font-size: 2em;
 }
-p.textos-cabecalho { /*não está funcionando*/
+
+h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.colorido-azul {
+   
     font-size: 1.4em;
     margin: 2px;
-    color: #357599;
+    color: #295872;
+    
 }
 
 #landing-cursos {
@@ -38,23 +48,59 @@ p.textos-cabecalho { /*não está funcionando*/
 }
 
 .todos-cursos {
-    border: solid 1px blue;
+    /*border: solid 1px red;*/
     display: flex;
     justify-content: center;
 
 }
 
 .detalhe-curso {
-    border: solid 1px green;
+    /*border: solid 1px red;*/
     width: 23%;
     margin: 5px;
     padding:10px;
     text-align: left;
+    background-color: #8dbeda42;
+    border-radius: 5px;
 }
 
 
 
 .textos-curso {
-    border: solid 1px red;
+    /*border: solid 1px red;*/
     width: 92%;
+}
+
+.button {
+    background-color: #67a8cd/*#295872*/;
+    border: none;
+    color: rgb(37, 37, 37);
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    width: 46%; /* Para centralziar o botão ao centro, já que a box pai está confirugrada com text-align: left, encontrei a seguinte notação: "Change the width as much as you like, but make sure 
+    margin-left and margin-right + width = 100%" .  */
+    margin-left:27%;
+    margin-right:27%;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+  }
+
+.button:hover {
+    background-color: #4292bf;
+    color: rgb(37, 37, 37);
+  }
+
+  .classeIMG { 
+    border-radius: 5px;
+    transition: 0.5s; 
+}
+.classeIMG:hover { 
+    transform: scale(1.04); /*Procurar como aplicar zoom, mas não aumentar a imagem*/
+    
 }
