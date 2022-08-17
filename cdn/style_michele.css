@@ -5,13 +5,8 @@
     margin:0;
     font-size: 100%;
     box-sizing: border-box; /*conteudo + broda = width*/
-
-   
     color: rgb(37, 37, 37);
-
-    font-family: 'Roboto', sans-serif;
-
-    
+    font-family: 'Roboto', sans-serif;  
 }
 
 .row {
