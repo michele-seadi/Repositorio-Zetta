@@ -31,9 +31,8 @@ h2 {
     font-size: 2em;
 }
 
-h3 {
-    margin-top: 5px;
-    margin-bottom: 5px;
+.detalhe-curso h3 {
+    margin: 10px 0;
 }
 
 .colorido-azul { 
@@ -68,16 +67,16 @@ h3 {
     /*border: solid 1px red;*/
 
 flex-basis: calc(25% - 10px);
-margin-bottom: 30px;
-
-    /*
-    width: 23%;
-   
-    text-align: left;
-    background-color: #8dbeda42;
-    border-radius: 5px;*/
-    
+margin-bottom: 40px;
+background-color: #8dbeda34;
+padding: 8px;
+  
 }
+
+.detalhe-curso p {
+    height: 40px;
+}
+
 
 .textos-curso {
     /*border: solid 1px red;*/
@@ -91,8 +90,7 @@ margin-bottom: 30px;
     padding: 10px 24px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
-    font-size: 18px;
+    font-size: 18px; /*Ainda não consegui adequar o tamnaho da fonte à diminuição de largura de botão.*/
     width: 46%; /* Para centralziar o botão ao centro, já que a box pai está confirugrada com text-align: left, encontrei a seguinte notação: "Change the width as much as you like, but make sure 
     margin-left and margin-right + width = 100%" .  */
     margin-left:27%;
@@ -108,6 +106,7 @@ margin-bottom: 30px;
     background-color: #4292bf;
     color: rgb(37, 37, 37);
   }
+  
 
   .classeIMG { 
     width: 100%;
@@ -120,5 +119,23 @@ margin-bottom: 30px;
     opacity: 1;      /* aqui posso usar em vez de opacity, a propriedade transform: scale(1.04). (Procurar como aplicar zoom, mas não aumentar a imagem.) */ 
 }
 
- 
+#more {display: none;}
 
+
+@media (max-width: 1100px){
+    .detalhe-curso {   
+    flex-basis: calc(33% - 10px);
+ }
+}
+
+ @media (max-width: 950px){
+    .detalhe-curso {   
+    flex-basis: calc(50% - 10px);
+ }
+}
+
+@media (max-width: 580px){
+    .detalhe-curso {
+    flex-basis: calc(100% - 10px);  
+    }
+}
