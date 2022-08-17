@@ -5,9 +5,52 @@
     margin:0;
     font-size: 100%;
     box-sizing: border-box; /*conteudo + broda = width*/
-    font-family: 'Lato', sans-serif;
+
+   
     color: rgb(37, 37, 37);
+
+    font-family: 'Roboto', sans-serif;
+
     
+}
+
+.row {
+    margin: 0;
+}
+
+.container {
+    padding: 70px;
+}
+
+/* Nav Bar */
+header, .navbar {
+    background-color: #295872;
+}
+
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo {
+    width: 75px;
+}
+
+.navbar-brand {
+    padding: 0;
+    color: #ffffff;
+}
+
+.navbar-brand:hover {
+    color: #FFF;
+}
+
+#navbar-links a {
+    color: #FFF;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem .8rem;
 }
 
 .container-principal { /* Este container pega toda a landing page, só não pega o footer.*/
@@ -45,7 +88,7 @@ h2 {
     max-width: calc(1400px-40px);
     padding: 0 20px;
     margin: 0 auto;
-    border: solid 1px red;
+  /*border: solid 1px red;*/
     display: flex; 
     justify-content: space-between;
     flex-wrap: wrap;
