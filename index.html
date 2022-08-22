@@ -75,7 +75,7 @@
         </section>
 
 
-        <section id="landing-cursos"><!--Primeira Section: apresentação de alguns cursos, como é na Alura -->
+        <section id="landing-cursos"><!--Segunda Section: apresentação de alguns cursos, como é na Alura -->
 
                <!-- <div class="todos-cursos"> -->
                     <div class="detalhe-curso">
@@ -162,7 +162,94 @@
 
         </section>
 
-        <section class="experimenta-bootstrap">
+        <section> <!--Terceira Section: depoimentos-->
+
+          <div class="container my-4 text-center" class="border"  style="border: solid 2px #295872;">
+            <div class="row">
+                
+    
+                <!--.....Começa o carrocel.....-->
+                   <!-- Desativei os botões abaixo porque deixei a passagem de slides automática
+                    
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                        <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>-->
+
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" class="border" >
+                      <div class="carousel-inner">
+                        <!---.....1º entrada do carrocel (é um card de texto lateral dentro de uma classe container para centralizar.)........-->
+                        <div class="carousel-item active" data-bs-interval="4000">  <!-- a 1ª entrada de um carrocel tem que ter a classe active-->
+                            <div class="container card mb-1" style="max-width: 900px;">
+                                <div class="row g-0">
+                                <div class="col-md-4 col-sm-6 my-1">
+                                    <img src="assets/img/aluno_04.jpg" class="img-fluid rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-8 col-sm-6">
+                                    <div class="card-body">
+                                    <h5 class="card-title">Lourdes da Silva</h5>
+                                    <p class="card-text">"Hoje me sinto muito mais segura em assuntos realcionados à tecnologias!"</p>
+                                    <p class="card-text"><small class="text-muted">Cursou Sistema Operacional, 2021!</small></p>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--......2º entrada do carrcocel ..........-->   
+    
+                        <div class="carousel-item" data-bs-interval="4000">
+                            <div class="container card mb-1" style="max-width: 900px;">
+                                <div class="row g-0">
+                                <div class="col-md-4 col-sm-6 my-1">
+                                    <img src="assets/img/aluno_02.jpg" class="img-fluid rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-8 col-sm-6">
+                                    <div class="card-body">
+                                    <h5 class="card-title">Juliana da Silva</h5>
+                                    <p class="card-text">"Estou mudando o rumo da minha trajetória com a zetta."</p>
+                                    <p class="card-text"><small class="text-muted">Estudante CSS Básico, desde  2020!</small></p>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--......3º entrada do carrocel..........-->   
+                    
+                        <div class="carousel-item" data-bs-interval="4000">
+                            <div class="container card mb-1" style="max-width: 900px;">
+                                <div class="row g-0">
+                                <div class="col-md-4 col-sm-6 my-1">
+                                    <img src="assets/img/aluno_03.jpg" class="img-fluid rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-8 col-sm-6">
+                                    <div class="card-body">
+                                    <h5 class="card-title">Ana Luiza da Silva</h5>
+                                    <p class="card-text">"Estou cursando CSS Básico há 3 semanas e já estou estagiando em uma empresa muito legal!"</p>
+                                    <p class="card-text"><small class="text-muted">Estudante Html Básico, 2022!</small></p>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--........setas do carrocel......-->
+                        <!--
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                        </button>
+                        -->
+                      </div>
+                    </div>
+            </div>
+          </div>
+
             
         </section>
 
@@ -173,10 +260,8 @@
                 gratuitos e de qualidade.</p>
         </section>
 
-        <section id="landing-depoimentos"> <!--Terceira Section: depoimentos-->
-            <p>Depoimentos de
-                nossos alunos
-                que inspiram mudanças.</p>
+        <section >
+            
         </section>
 
         <section id="landing-parceiros"> <!--Quarta Sections: logos de empresas parceiras-->
