@@ -15,6 +15,16 @@
     margin: 0;
 }
 
+.row::after {     
+    content:"";
+    display: table;
+    clear:both;
+}
+
+
+
+
+
 .container {
     padding: 70px;
 }
