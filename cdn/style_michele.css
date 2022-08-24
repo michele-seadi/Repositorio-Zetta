@@ -22,15 +22,12 @@
 }
 
 
-
-
-
 .container {
     padding: 70px;
 }
 
 .container-principal { /* Este container pega toda a landing page, só não pega o footer.*/
-    border:solid 1px yellow;
+    
     max-width: 1400px;
     margin: 0 auto;
     background-color: #f7f7f7;
@@ -131,7 +128,7 @@ padding: 8px;
     width: 100%;
     border-radius: 5px;
     transition: 0.3s; 
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
 .classeIMG:hover { 
