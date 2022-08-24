@@ -123,6 +123,9 @@ padding: 8px;
     color: rgb(37, 37, 37);
   }
   
+  #landing-cursos h3 {
+    color: #295872;
+  }
 
   .classeIMG { 
     width: 100%;
