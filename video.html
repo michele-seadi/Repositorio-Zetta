@@ -35,14 +35,46 @@
                     <a class="nav-link" href="sobre.html">Sobre</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="cursos.html">Todos Cursos</a>
-                  </li>
-                    </ul>
+                    <a class="nav-link" href="cursos.html">Cursos</a>
                   </li>
                 </ul>
                 <div class="col-md-3 text-end">
-                    <button type="button" class="btn btn-outline-primary me-2">Entrar</button>
-                    <button type="button" class="btn btn-primary">Cadastrar</button>
+                  <!--Modal para Login-->
+                  <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#ModalForm">Entrar</button>                     
+                  <!-- Modal Form -->
+                  <div class="modal fade" id="ModalForm" tabindex="-1" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content">
+                          <!-- Form-->
+                          <form action="">
+                            <div class="modal-header">
+                              <h5 class="modal-title">Já é nosso aluno?</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <div class="mb-3">
+                                  <label for="Email">Email do usuário<span class="text-danger">*</span></label>
+                                  <input type="email" name="Email" class="form-control" id="Email" placeholder="Digite o email">
+                              </div>
+                              <div class="mb-3">
+                                  <label for="Password">Senha do usuário<span class="text-danger">*</span></label>
+                                  <input type="password" name="password" class="form-control" id="Password" placeholder="Digite a senha">
+                              </div>
+                              <div class="mb-3">
+                                  <input class="form-check-input" type="checkbox" value="" id="remember" required>
+                                  <label class="form-check-label" for="remember">Lembre de mim/</label>
+                                  <a href="#" class="float-end">Esqueceu a senha</a>
+                              </div>
+                            </div>
+                            <div class="modal-footer pt-4">                  
+                              <button type="button" class="btn mx-auto w-100" style="background-color: #4292bf;">Acessar</button>
+                            </div>
+                            <p class="text-center">Ainda não possui conta? <a href="#">Cadastre-se</a></p> 
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                  <button type="button" class="btn btn-primary">Cadastrar</button>
                 </div>
               </div>
             </div>
