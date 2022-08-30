@@ -29,3 +29,5 @@ function fnLoadPortfolio() {
     }
     
     fnLoadPortfolio();
+
+    AOS.init();
