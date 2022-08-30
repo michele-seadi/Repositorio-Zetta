@@ -31,3 +31,15 @@ function fnLoadPortfolio() {
     fnLoadPortfolio();
 
     AOS.init();
+
+    function logar(){
+
+        var login = document.getElementById('email').value;
+        var senha = document.getElementById('password').value;
+
+        if(login == "admin@admin" && senha == "admin"){
+            alert('Sucesso');
+        }else{
+            alert('Erro');
+        }
+    }
